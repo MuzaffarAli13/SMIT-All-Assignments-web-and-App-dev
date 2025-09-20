@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 30px;
+    background-color: hsl(60, 1%, 18%);
+    font-size: 20px;
+    line-height: 30px;
+    height: 800px;
+}
+#container{
+   background-color: hsl(30, 20%, 98%);
+   width: 800px;
+  padding: 20px;
+  height: 600px;
+  border: 2px,solid, black;
+  border-radius: 5px;
+}
+#date{
+    margin-bottom: 10px;
+}
+#heading{
+    text-decoration: underline;
+    justify-self: center;
+    color: green;
+    margin-bottom: 20px;
+}
+
+#bold{
+    color: red;
+}
+#mam{
+    font-weight: bold;
+    margin-top: 10px;
+}
+#reseon{
+    text-indent: 8rem;
+    margin-bottom: 10px;
+}

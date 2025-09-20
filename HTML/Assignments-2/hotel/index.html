@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Website</title>
+   <style>
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+   </style>
+</head>
+<body style="background-color: #332f45;">
+    <header style="display: flex; justify-content: space-between; background: #332f45; color: white; height: 100px; width: 100%;
+    padding: 10px; align-items: center"> 
+        <!-- logo -->
+         <div>
+            <h1>Jaegar Resto</h1>
+            <p>Tuesday, 2 Feb 2025</p>
+         </div>
+         <div>
+            <h1>Welcome to Jaegar Resto</h1>
+         </div>
+         <div style="display: flex; gap: 5px;">
+            <input style="padding: 5px; width: 200px;" type="search" placeholder="Search...">
+            <button style="padding: 5px; " type="submit">Search</button>
+         </div>
+            <!-- <div>
+                <button type="button">Login</button>
+                <button type="button">Sign Up</button>
+            </div> -->
+           
+    </header>
+    <nav style="background-color: #332f45; height: 30px; color: white; display: flex; justify-content: center; align-items: center;">
+        <ul style="display: flex; align-items: center; gap: 40px; list-style-type: none;">
+            <li>Hot Dishes</li>
+            <li>Cold Dishes</li>
+            <li>Soup</li>
+            <li>Grill</li>
+            <li>Appetizer</li>
+            <li>Dessert</li>
+        </ul>
+    </nav>
+    <hr>
+    <main>
+        <div style="display: flex; justify-content: space-between; padding: 10px;">
+        <h3 style="font-size: 25px; color: white; ">Choose Dishes</h3>
+         <!-- dropdown -->
+            <select name="dishes" id="dishes" style="padding: 5px; width: 200px; margin: 10px;">
+                <option value="hot">Hot Dishes</option>
+                <option value="cold">Cold Dishes</option>
+                <option value="soup">Soup</option>
+                <option value="grill">Grill</option>
+                <option value="appetizer">Appetizer</option>
+                <option value="dessert">Dessert</option>
+            </select>
+        </div>
+        <!-- dish details -->
+         <div style="display: flex; justify-content: space-between; padding: 10px; gap: 20px;">
+            <div style="display: flex; flex-direction: column; background-color: #221f2f; padding: 10px;
+            height: 260px; border-radius: 10px; align-items: center; color: white; justify-content: start;">
+                <img src="/dishes.svg" alt="dishes">
+                <h3 style="margin-top: 5px;">Spicy seasoned seafood noodles</h3>
+                <span style="margin-top: 10px;">$ 2.29</span>
+                <p style="margin-top: 10px;">20 Bowls available</p>
+                <a style="margin-top: 10px; color: white;" href="detail/index.html">View Details</a>
+            </div> 
+           <div style="display: flex; flex-direction: column; background-color: #221f2f; padding: 10px;
+            height: 260px; border-radius: 10px; align-items: center; color: white; justify-content: start;">
+                <img src="/d-2.png" alt="dishes">
+                <h3 style="margin-top: 5px;">Spicy seasoned seafood noodles</h3>
+                <span style="margin-top: 10px;">$ 2.29</span>
+                <p style="margin-top: 10px;">20 Bowls available</p>
+                <a style="margin-top: 10px; color: white;" href="detail/index.html">View Details</a>
+            </div> 
+            <div style="display: flex; flex-direction: column; background-color: #221f2f; padding: 10px;
+            height: 260px; border-radius: 10px; align-items: center; color: white; justify-content: start;">
+                <img src="/d-3.png" alt="dishes">
+                <h3 style="margin-top: 5px;">Spicy seasoned seafood noodles</h3>
+                <span style="margin-top: 10px;">$ 2.29</span>
+                <p style="margin-top: 10px;">20 Bowls available</p>
+                <a style="margin-top: 10px; color: white;" href="detail/index.html">View Details</a>
+            </div> 
+         </div>
+         <!-- second dishes -->
+            <div style="display: flex; justify-content: space-between; padding: 10px; gap: 20px;">
+            <div style="display: flex; flex-direction: column; background-color: #221f2f; padding: 10px;
+            height: 260px; border-radius: 10px; align-items: center; color: white; justify-content: start;">
+                <img src="/dishes.svg" alt="dishes">
+                <h3 style="margin-top: 5px;">Spicy seasoned seafood noodles</h3>
+                <span style="margin-top: 10px;">$ 2.29</span>
+                <p style="margin-top: 10px;">20 Bowls available</p>
+                <a style="margin-top: 10px; color: white;" href="/detail/index.html">View Details</a>
+            </div> 
+           <div style="display: flex; flex-direction: column; background-color: #221f2f; padding: 10px;
+            height: 260px; border-radius: 10px; align-items: center; color: white; justify-content: start;">
+                <img src="/d-2.png" alt="dishes">
+                <h3 style="margin-top: 5px;">Spicy seasoned seafood noodles</h3>
+                <span style="margin-top: 10px;">$ 2.29</span>
+                <p style="margin-top: 10px;">20 Bowls available</p>
+                <a style="margin-top: 10px; color: white;" href="/detail/index.html">View Details</a>
+            </div> 
+            <div style="display: flex; flex-direction: column; background-color: #221f2f; padding: 10px;
+            height: 260px; border-radius: 10px; align-items: center; color: white; justify-content: start;">
+                <img src="/dishes.svg" alt="dishes">
+                <h3 style="margin-top: 5px;">Spicy seasoned seafood noodles</h3>
+                <span style="margin-top: 10px;">$ 2.29</span>
+                <p style="margin-top: 10px;">20 Bowls available</p>
+                <a style="margin-top: 10px; color: white;" href="/detail/index.html">View Details</a>
+            </div> 
+         </div>
+         <!-- third dishes -->
+            <div style="display: flex; justify-content: space-between; padding: 10px; gap: 20px;">
+            <div style="display: flex; flex-direction: column; background-color: #221f2f; padding: 10px;
+            height: 260px; border-radius: 10px; align-items: center; color: white; justify-content: start;">
+                <img src="/dishes.svg" alt="dishes">
+                <h3 style="margin-top: 5px;">Spicy seasoned seafood noodles</h3>
+                <span style="margin-top: 10px;">$ 2.29</span>
+                <p style="margin-top: 10px;">20 Bowls available</p>
+                <a style="margin-top: 10px; color: white;" href="/detail/index.html">View Details</a>
+            </div> 
+           <div style="display: flex; flex-direction: column; background-color: #221f2f; padding: 10px;
+            height: 260px; border-radius: 10px; align-items: center; color: white; justify-content: start;">
+                <img src="/d-2.png" alt="dishes">
+                <h3 style="margin-top: 5px;">Spicy seasoned seafood noodles</h3>
+                <span style="margin-top: 10px;">$ 2.29</span>
+                <p style="margin-top: 10px;">20 Bowls available</p>
+                <a style="margin-top: 10px; color: white;" href="/detail/index.html">View Details</a>
+            </div> 
+            <div style="display: flex; flex-direction: column; background-color: #221f2f; padding: 10px;
+            height: 260px; border-radius: 10px; align-items: center; color: white; justify-content: start;">
+                <img src="/dishes.svg" alt="dishes">
+                <h3 style="margin-top: 5px;">Spicy seasoned seafood noodles</h3>
+                <span style="margin-top: 10px;">$ 2.29</span>
+                <p style="margin-top: 10px;">20 Bowls available</p>
+                <a style="margin-top: 10px; color: white;" href="/detail/index.html">View Details</a>
+            </div> 
+         </div>
+    </main>
+
+   
+</body>
+</html>

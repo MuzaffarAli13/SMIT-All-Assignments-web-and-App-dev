@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <!-- left -->
+        <div class="left_box">
+            <!-- image -->
+            <button class="btn" onclick="ShowImg()" id="img_btn">show Img</button>
+            <div class="box_img">
+                <div class="img_box">
+                    <img src="/logo.jpg" alt="logo" id="img_logo" width="100">
+                </div>
+            </div>
+            <!-- contact info -->
+            <div class="contact_bx">
+                <ul>
+                    <h3>Contact Info</h3>
+                    <li>Name: Muzaffar ALi</li>
+                    <li>Phone no: 03113637483</li>
+                    <li>Email: muzaffar@gmail.com</li>
+                </ul>
+            </div>
+            <!-- Skill -->
+            <div class="skill_box">
+                <ul>
+                    <h3>Skills</h3>
+                    <li>Html</li>
+                    <li>Css</li>
+                    <li>JavaScript</li>
+                    <li>Node.Js</li>
+                </ul>
+            </div>
+            <!-- Hobbies -->
+            <div class="hobbie_box">
+                <ul>
+                    <h3>Hobbies</h3>
+                    <li>Coding</li>
+                    <li>Cricket</li>
+                    <li>Singing</li>
+                </ul>
+            </div>
+        </div>
+        <!-- right -->
+        <div class="right_box">
+            <!-- exp box -->
+            <div class="box_exp">
+                <button class="btn" onclick="Show_Exp('exp_box')" id="exp_btn">Show Experience</button>
+                <div id="exp_box">
+                    <h3>Experience</h3>
+                    <h4>Teaching Assistant - YouTube Educator</h4>
+                    <p>Created interactive coding tutorials on YouTube, teaching front-end development to beginners.</p>
+                </div>
+            </div>
+            <!-- edu box -->
+            <div class="box_exp">
+                <button class="btn" onclick="Show_Edu('edu_box')" id="edu_btn">Show Education</button>
+                <div id="edu_box">
+                    <h3>Education</h3>
+                    <h4>Bachelor In Technologies</h4>
+                    <p>University of Karachi (Pakistan)</p>
+                    <p>2024 - Present (1st Year)</p>
+                    <p>Overall GPA: 7.5 / 10</p>
+                </div>
+            </div>
+            <!-- lang box -->
+            <div class="box_exp">
+                <button class="btn" onclick="Show_lang('lang_box')" id="lang_btn">Show Language</button>
+                <div id="lang_box">
+                    <h3>Language</h3>
+                    <ul>
+                        <li>English</li>
+                        <li>Urdu</li>
+                        <li>Sindhi</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- form -->
+            <form action="">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter your Name:">
+                <p id="name_err"></p>
+                <br><br>
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email" placeholder="email@xyz.com">
+                <p style="margin-top: 7px;" id="email_err"></p>
+                <br><br>
+                <label for="message">Message:</label>
+                <input type="text" name="message" id="message" placeholder="Your Message...">
+                <p style="margin-top: 7px;" id="msg_err"></p>
+                <br><br>
+                <!-- <input onclick="Submit(event)" id="submit" type="submit"  value="Submit"> -->
+                <button class="btn" type="button" onclick="Submit(event)">Submit</button>
+            </form>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

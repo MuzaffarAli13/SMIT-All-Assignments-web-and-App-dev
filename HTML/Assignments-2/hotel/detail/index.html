@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>detail</title>
+    <style>
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+   </style>
+</head>
+<body  style="background-color: #332f45;">
+      <header style="display: flex; justify-content: space-between; background: #332f45; color: white; height: 100px; width: 100%;
+    padding: 10px; align-items: center"> 
+        <!-- logo -->
+         <div>
+            <h1>Jaegar Resto</h1>
+            <p>Tuesday, 2 Feb 2025</p>
+         </div>
+         <div>
+            <h1>Welcome to Jaegar Resto</h1>
+         </div>
+         <div style="display: flex; gap: 5px;">
+            <input style="padding: 5px; width: 200px;" type="search" placeholder="Search...">
+            <button style="padding: 5px; " type="submit">Search</button>
+         </div>
+    </header>
+    <hr>
+     <main>
+        <div style="display: flex; justify-content: space-between; padding: 10px;">
+        <a style="color: white;" href="/index.html">back to home</a>
+        <h3 style="font-size: 25px; color: white; ">Detail Page</h3>
+         <!-- dropdown -->
+            <select name="rating" id="rating" style="padding: 5px; width: 200px; margin: 10px;">
+                <option value="one">1 star</option>
+                <option value="two">2 stars</option>
+                <option value="three">3 stars</option>
+                <option value="four">4 stars</option>
+                <option value="five">5 stars</option>
+                <option value="six">6 stars</option>
+            </select>
+        </div>
+        <div style="display: flex; justify-content: center; align-items: center;">
+            <img src="/dishes.svg" width="40%" alt="dishes">
+        
+            <div style="display: flex; flex-direction: column; gap: 10px; padding: 10px;">
+                <h3 style="color: white;">Beef dumpling in hot and sour soup</h3>
+                <p style="font-weight: bold; color: white;">$250</p>
+                <p style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+                <button style="padding: 5px; width: 200px; margin: 10px;" type="submit">Add to Cart</button>
+                <button style="padding: 5px; width: 200px; margin: 10px;" type="submit">Add to Favorite</button>
+                <button style="padding: 5px; width: 200px; margin: 10px;" type="submit">Add to Order</button>
+            </div>
+        </div>
+     </main>
+</body>
+</html>
