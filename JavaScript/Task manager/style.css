@@ -1,0 +1,25 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 100%;
+    background-color: aqua;
+}
+input{
+    padding: 8px;
+    width: 300px;
+}
+.btn{
+    padding: 8px;
+    width: 100px;
+    cursor: pointer;
+}

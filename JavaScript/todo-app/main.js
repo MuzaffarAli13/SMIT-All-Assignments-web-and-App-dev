@@ -47,7 +47,6 @@ function Add_Book() {
             li.childNodes[0].nodeValue = update_data
             console.log(li.childNodes[0].nodeValue);
             
-            
         }
           
         // css
@@ -55,7 +54,6 @@ function Add_Book() {
         edite_add_btn.style.color = "white"
         edite_add_btn.style.border = "1px solid"
     }
-
 
     // clear input
     document.getElementById("todoinput").value = "";
